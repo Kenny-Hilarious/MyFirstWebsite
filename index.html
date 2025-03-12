@@ -133,4 +133,28 @@ Body {background-color: cadetblue;}
 <section> 
 	<h1> More bullshit </h1>
 	<p> this is how you can properly format some websites loll </p>
+   <p> Javascript demonstration. </p>
+   
+
+<script>
+   function cat(sw) {
+      var cat;
+      if (sw == 0) {
+         cat = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgr3u7Ptn3aRXT2eiGUfkdMg1FE88uFF135pam_fAgGsAJtSa4hDG04Xs8IHJd29DC8G8&usqp=CAU"
+      } else {
+         cat = "https://i.pinimg.com/originals/15/1d/a9/151da98ceef9a9a54a7eac4af04be712.gif"
+      }
+      document.getElementById("myCat").src = cat;
+   }
+   
+</script>
+   <img id="myCat" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgr3u7Ptn3aRXT2eiGUfkdMg1FE88uFF135pam_fAgGsAJtSa4hDG04Xs8IHJd29DC8G8&usqp=CAU"
+   
+   alt ="catcatDance" width="500" height="500">
+   <p>
+   <button onclick="cat(0)">Freeze!</button>
+   <button onclick="cat(1)">Put those hands in the air!</button>
+   </p>
+   
+</section>
 </html>
